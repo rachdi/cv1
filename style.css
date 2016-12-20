@@ -1,83 +1,86 @@
 header{
 	
 	text-align: center;
+
+
 	
 }
+#button{text-align: center;}
 #tete{background-color:#D7FFF1 ;
 
 }
 body{
 	background-color: #D7FFF1 ;
 }
+.selec{
+	width: 100%;
+	height: 30px;
+}
+.container{
+	width: 100em;
+	
+	text-align: center;
+}
+.text
+{
+	text-shadow: 6px 20px 14px rgba(0, 0, 0, 0.75);
+	color: #0080ff;
+	
+}
+.comp{width: 100px;height: 100px;}
 
 
-/*
-.wrap
-{
-	perspective: 800px;
-	perspective-origin: 50% 100px;
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
 }
-.cube
-{
-	margin: 0 auto;
-	position: relative;
-	/*	width: 400px;*/
-	/*transform-style: preserve-3d;
-	transition: transform 1s;
-	width: 400px;
-	height: 200px;
-}
-.cube div
-{
-	/*box-shadow: inset 0 0 20px rgba(125,125,125,0.9);*/
-/*	box-shadow: inset 0 0 20px #58C9B9;
-	position: absolute;
-	width: 400px;
-	height: 200px;
-}
-.back
-{
-	background: #58C9B9;
-	transform: translateZ(-100px) rotateY(180deg);
-	width: 400px;
-	height: 200px;
-}
-.right
-{
-	background: #58C9B9;
-	transform: rotateY(-270deg) translateX(100px);
-	transform-origin: top right;
-	width: 400px;
-	height: 200px;
-}
-.left
-{
-	background: #58C9B9;
-	transform: rotateY(270deg) translateX(-100px);
-	transform-origin: center left;
-	width: 400px;
-	height: 200px;
-}
-.top
-{
-	background: #58C9B9;
-	transform: rotateX(-90deg) translateY(-100px);
-	transform-origin: top center;
-	width: 400px;
-	height: 200px;
-}
-.bottom
-{
-	background: #58C9B9;
-	transform: rotateX(90deg) translateY(100px);
-	transform-origin: bottom center;
-	width: 400px;
-	height: 200px;
-}
-.front
-{
-	background: #58C9B9;
-	transform: translateZ(100px);
-	width: 500px;
-	height: 300px;
-}*/
+/*#fond-titre:hover{
+	background-color: blue;
+	}*/
+/*#fond-titre:visited{
+	background-color: blue; !important;
+	}*/
+	#fond-titre:active{
+		background-color: blue;
+	}
+	ul.tabs li{
+
+
+		display: inline-block;
+
+		cursor: pointer;
+		margin:0 0.5em 0 0.5em;
+
+	}
+
+	ul.tabs li.current{
+		background: #ededed;
+		color: white;
+	}
+
+	.tab-content{
+		display: none;
+		background: #D7FFF1 ;
+		padding: 15px;
+	}
+
+	.tab-content.current{
+		display: inherit;
+	}
+	.ui.horizontal.divider {
+		
+		margin: 280px 60px 0px 20px;
+
+	}
+	.ui.horizontal.divider a{
+		margin-right: 10px;
+	}
+
+
+	.section{
+		text-align: center;
+		width: 100%;
+		height: 950px;
+	}
