@@ -1,86 +1,79 @@
-header{
-	
-	text-align: center;
 
 
-	
-}
-#button{text-align: center;}
-#tete{background-color:#D7FFF1 ;
-
-}
 body{
-	background-color: #D7FFF1 ;
+	background-color: #60c5ba;
 }
-.selec{
-	width: 100%;
-	height: 30px;
-}
-.container{
-	width: 100em;
+footer{
+	text-align: center;
 	
+}
+header{
+	height: 160px;
+	background: url('http://www.geertjanhendriks.nl/codepen/form/golf.png') repeat-x bottom;
+}
+
+.willerce{text-align:center;margin:100px auto auto auto;max-width:520px;padding:0 20px}
+
+
+
+.avatar{margin-bottom:35px;border-radius:67px;box-shadow:0 1px 2px rgba(0,0,0,0.9)}
+
+/*.willerce{animation:fade-in;animation-duration:1s;-webkit-animation:fade-in 1s}*/
+
+@import url(http://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
+
+
+h1{
+	font-weight: normal;
+	font-size: 4em;
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 500px;
+	color: #F90;
+	text-align: center;
+
+}
+
+/* Animation webkit */
+@-webkit-keyframes myfirst
+{
+	0% {margin-left: -235px}
+	90% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+/* Animation */
+@keyframes myfirst
+{
+	0% {margin-left: -235px}
+	70% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+
+
+
+#form{
+	height: 100%;	
+	background-color: #98d4f3;
+	overflow: hidden;
+	position: relative;
+
+}
+#menu{
 	text-align: center;
 }
-.text
-{
-	text-shadow: 6px 20px 14px rgba(0, 0, 0, 0.75);
-	color: #0080ff;
-	
+
+
+#footericone{
+	text-align:center;
+	margin-bottom: 0px;
 }
-.comp{width: 100px;height: 100px;}
 
-
-
-ul.tabs{
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
+#aboutme{
+	text-align: center;
 }
-/*#fond-titre:hover{
-	background-color: blue;
-	}*/
-/*#fond-titre:visited{
-	background-color: blue; !important;
-	}*/
-	#fond-titre:active{
-		background-color: blue;
-	}
-	ul.tabs li{
 
 
-		display: inline-block;
 
-		cursor: pointer;
-		margin:0 0.5em 0 0.5em;
-
-	}
-
-	ul.tabs li.current{
-		background: #ededed;
-		color: white;
-	}
-
-	.tab-content{
-		display: none;
-		background: #D7FFF1 ;
-		padding: 15px;
-	}
-
-	.tab-content.current{
-		display: inherit;
-	}
-	.ui.horizontal.divider {
-		
-		margin: 280px 60px 0px 20px;
-
-	}
-	.ui.horizontal.divider a{
-		margin-right: 10px;
-	}
-
-
-	.section{
-		text-align: center;
-		width: 100%;
-		height: 950px;
-	}

@@ -1,24 +1,23 @@
 $(document).ready(function(){
- 	
- 	$('ul.tabs li').click(function(){
- 		var tab_id = $(this).attr('data-tab');
 
- 		$('ul.tabs li').removeClass('current');
- 		$('.tab-content').removeClass('current');
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
 
- 		$(this).addClass('current');
- 		$("#"+tab_id).addClass('current');
- 	})
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
 
- })
- $(".ui.button").on("click",function(){
- 	$("#representation").hide();
- })
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
 
-// $("#arriere").on("click",function(){
-// 	$(".ui.intert.shape").shape("flip left");
-// })
-// $("#avance").on("click",function(){
-// 	$(".ui.intert.shape").shape("flip right");
-// })
+})
+$('.special.cards .image').dimmer({
+	on: 'hover'
+});
+$('.overlay.example .overlay')
+.visibility({
+	type   : 'fixed',
+    offset : 15 // give some space from top of screen
+})
+;
 
