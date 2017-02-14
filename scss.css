@@ -4,7 +4,7 @@ body, html{
 	padding: 0;
 	margin: 0;
 	font-family: 'Sniglet', cursive;
-	background-color: #60c5ba;
+	background-color: #F8F8FF;
 
 	text-align: center;
 
@@ -12,10 +12,11 @@ body, html{
 #menu{text-align: center;}
 h1
 {
+
 	font-size: 32px;
-	text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;
+	text-shadow: -1px -1px #000, 1px 1px #000, -3px 0 4px #000;
 	font-family:Arial, Helvetica, sans-serif;
-	color: #090;
+	color: #a3a1a1;
 	padding:16px;
 	font-weight:lighter;
 	-moz-box-shadow: 2px 2px 6px #888;  
@@ -24,12 +25,25 @@ h1
 	text-align:center;
 	display:block;
 	margin:16px;
-	background-color: #519D9E;  
+	background-color: #D9D4CF;  
 }
-.prenom{font-size: 32px;
-	text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;
+.prenom{
+	
+	
+
+	
+
+	letter-spacing: .10em;
+
+
+
+	font-size: 32px;
+	text-shadow:
+	1px -1px 0 #767676,
+	-1px 2px 1px #767474,
+
 	font-family:Arial, Helvetica, sans-serif;
-	color: black;
+	color: #77919d;
 	padding:16px;
 	font-weight:lighter;
 	-moz-box-shadow: 2px 2px 6px #888;  
@@ -38,7 +52,7 @@ h1
 	text-align:center;
 	display:block;
 	margin:16px;
-	background-color: #519D9E;  
+	background-color: #D9D4CF;  
 
 }
 h3 
