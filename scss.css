@@ -62,7 +62,7 @@ h3
 	letter-spacing : 0.5em;
 	font-size : 140%;
 }
-.avatar{margin-bottom:35px;border-radius:67px;box-shadow:0 1px 2px rgba(0,0,0,0.9)}
+.avatar{border-radius:67px;box-shadow:0 1px 2px rgba(0,111,555,0.9); margin-top:10px;}
 .willerce{text-align:center;margin:20px auto auto auto;max-width:520px;padding:0 20px}
 li{list-style: none;}
 footer {
