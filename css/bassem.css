@@ -1,0 +1,190 @@
+
+body {
+  width: 100%;
+  color: rgb(102, 102, 102);
+}
+
+a {
+  color: rgb(137, 174, 47);
+}
+
+a:focus, a:hover {
+  color: rgb(137, 174, 47);
+}
+
+.header {
+  background-image: url('bassem.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  background-color: #FFF;
+  transition: all 0.7s ease;
+  font-family: 'Roboto', cursive;
+}
+
+.sticky {
+  height: 35vh;
+}
+.nav.nav-pills.nav-stacked a{
+  padding-left: 10px;
+}
+.header-contents > h1, .header-contents > h2 {
+  color: #FFF;
+  text-shadow:
+  -3px -3px 2px rgb(137, 174, 47),
+  3px -3px 2px rgb(137, 174, 47),
+  -3px 3px 2px rgb(137, 174, 47),
+  3px 3px 2px rgb(137, 174, 47);
+  font-weight: bold;
+  text-align: right;
+  margin: 0;
+  position: relative;
+}
+
+.header-contents > h1 {
+  font-size: 50px;
+  top: 20px;
+}
+
+.header-contents > h2 {
+  font-size: 30px;
+  top: 40px;
+}
+
+nav {
+  position: relative;
+  bottom: 50px;
+  width: 140px;
+  background-color: #FFF;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.nav > li > a:hover, a:hover {
+  background-color: rgb(137, 174, 47);
+  color: #FFF;
+  text-decoration: none;
+}
+
+nav .container-fluid {
+  padding: 0;
+}
+
+.header-contents {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.content {
+  padding-top: 35vh;
+  width: 900px;
+  margin: 0 auto;
+  font-family: 'Roboto', cursive;
+}
+
+.content > h3:before {
+  display: block;
+  content: " ";
+  margin-top: -35vh;
+  height: 35vh;
+  visibility: hidden;
+}
+
+.content h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(137, 174, 47);
+}
+
+.content p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skills > li {
+  font-size: 20px;
+  width: 33%;
+  text-align: center;
+}
+
+.glyphicon:after {
+  content: " ";
+  padding-right: 10px;
+}
+
+.content h4 {
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.projects a {
+  font-size: 18px;
+  display: inline;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.projects li {
+  margin-bottom: 40px;
+}
+
+.divider {
+  background-color: rgb(137, 174, 47);
+  width: 2px;
+  height: 20px;
+  display: inline-block;
+  margin: auto 10px;
+  align-self: center;
+}
+
+.project_links {
+  display: inline-flex;
+}
+
+mark {
+  background-color: rgb(236, 242, 222);
+  border-radius: 5px;
+}
+
+.projects img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+#contacts {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#contacts > a {
+  margin-right: 30px;
+}
+
+#contacts > a > img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#contacts > a > img:hover {
+  background-color: rgb(137, 174, 47);
+  border-radius: 50%;
+}
+
+#contacts > a:hover {
+  background-color: #FFF;
+}
